@@ -1,3 +1,5 @@
+> Copy of https://github.com/simonw/datasette for Crewly receipt testing; original license applies.
+
 <img src="https://datasette.io/static/datasette-logo.svg" alt="Datasette">
 
 [![PyPI](https://img.shields.io/pypi/v/datasette.svg)](https://pypi.org/project/datasette/)
