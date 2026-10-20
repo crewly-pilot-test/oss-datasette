@@ -4,6 +4,7 @@
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{{ static('app.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Datasette {{ datasette_version }}">
 {% for url in extra_css_urls %}
     <link rel="stylesheet" href="{{ url.url }}"{% if url.get("sri") %} integrity="{{ url.sri }}" crossorigin="anonymous"{% endif %}>
 {% endfor %}
